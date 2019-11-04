@@ -1,0 +1,311 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(font/Helvetica.ttf);
+}
+@font-face {
+    font-family: Open;
+    src: url(font/Helvetica.ttf);
+}
+
+/* removes all padding and margins inherited by default-- it is a reset way*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.row {
+	display: flex;
+	/*flex-wrap: wrap;*/
+	/* using the flex properties we can easily make a responsive webpage. Classes defining width are inserted so that the total length is equal to hundred 
+	In this page flex- wrap will not be used (not necessary) since there are only 1 elements in each row */
+}
+P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+	padding: 20px;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: centre;
+	line-height: 1.6;
+    width: 45em
+}
+
+
+
+/* STARTING THE CSS CODE FOR MENU ON AN IMAGE */
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.bg-img1 {  
+ /* The image used */
+  background: url(../image/1.jpg) ;
+  min-height: 570px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bg-img2 {  
+ /* The image used */
+  background: url(../image/2.jpg) ;
+  min-height: 570px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+}
+.bg-img3 {  
+ /* The image used */
+  background: url(../image/3.jpg) ;
+  min-height: 570px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+}
+.bg-img4 {  
+ /* The image used */
+  background: url(../image/4.jpg) ;
+  min-height: 530px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;    
+}
+
+.bg-img5 {  
+ /* The image used */
+  background: url(../image/5.jpg) ;
+  min-height: 530px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;    
+}
+.bg-img6 {  
+ /* The image used */
+  background: url(../image/6.jpg) ;
+  min-height: 530px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;    
+}
+.bg-img7 {  
+ /* The image used */
+  background: url(../image/14a.jpg) ;
+  min-height: 530px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;    
+}
+.bg-img8 {  
+ /* The image used */
+  background: url(../image/8.jpg) ;
+  min-height: 530px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;    
+}
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+  
+
+}
+
+/* ENDING THE CSS CODE FOR MENU ON AN IMAGE */
+
+
+/* START OF CSS CODE FOR SCROLL MENU */
+
+#navbar {
+  
+  overflow: hidden;
+  background-color: #dddddd;
+   
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  padding: 25px 0px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 5.1%; /* 8 links of equal widths */
+  
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: red;
+  
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  padding: 25px 0px;
+  width: 5.1%;
+  color: white;
+
+}
+
+.content1 {
+  padding: 30px;
+  text-align: center;
+  
+}
+#content {
+  padding: 50px;
+  text-align: center;
+  
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+ 
+}
+
+/* END OF CSS CODE FOR SCROLL MENU */
+
+
+/*STARTING CODING FOR PLACING LOGO ADJCENT TO MENU*/
+#n{
+    float: left;
+    position: relative;
+  /*  margin: 0px 0px 0px 0px;   */
+}
+n.bg-div{
+   background:#333;
+   overflow: hidden;
+}
+
+#n a {
+  float: left;
+   padding: 10px 10px;
+    
+}
+/*ENDING CODING FOR PLACING LOGO ADJCENT TO MENU*/
+
+
+/*STARTING CODING FOR SCROLL DOWN AND ARROW*/
+html, body {
+  height: 100%;
+}
+.demo a {
+  position: absolute;
+  bottom: 120px;
+  left: 45%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #FF0000;
+  font : bold 25 255px/1  'Helvetica', sans-serif;  
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.demo a:hover {
+  opacity: .5;
+}
+#section03 a { 
+  padding-top: 50px;
+}
+
+#section03 a span::after {
+  position: absolute;
+  top: 50%;
+  left: 650px;
+  content: '';
+  width: 22px;
+  height: 22px;
+  margin: -12px 0 0 -8px;
+  border-left: 7px solid #FF0000;
+  border-bottom: 7px solid #FF0000;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+
+
+/*ENDING CODING FOR SCROLL DOWN AND ARROW*/
+
+
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+.signupbtn {
+  padding: 14px 20px;
+  background-color: #4CAF50;
+}
+.loginbtn {
+  padding: 14px 20px;
+  background-color: #4CAF50;
+}
+.cancelbtn, .loginbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+/*STARTING CSS CODING FOR BUTTON ON HOME PAGE  */ 
+.but {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.but:hover {background-color: #3e8e41}
+
+.but:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

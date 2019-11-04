@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../css/index.css">
+<link rel="stylesheet" type="text/css" href="../css/booking.css">
+<script src="../js/register.js"></script>
+
+ 
+<style>
+</style>
+</head>
+<body>
+
+
+<!-- Starting code for menu bar-->
+<div class="bg-img7">
+  <div class="container">  
+  </div>
+</div>
+
+
+<div class="bg-div">
+<section id="section03" class="demo"> 
+  <a href="#content"><span></span><h3></h3></a>
+</section>
+
+
+<div id="navbar">
+<div id="n">
+<a href="javascript:void(0)">
+    <img class="n" src="../image/logo.png" width="180" height="65" >
+    </a>
+	</div>
+	
+	
+	<a  href="javascript:void(0)"><a  href="../index.html">Home</a></a>
+  <a href="javascript:void(0)"><a  href="../about me/about me.html">About Me</a></a>
+  <a href="javascript:void(0)"><a  href="../gallery/gallery.html">Gallery</a></a>
+  <a href="javascript:void(0)"><a  href="../booking/booking.html">Booking</a></a>
+  <a href="javascript:void(0)"><a href="../reviews/reviews.html">Reviews</a></a>
+  <a href="javascript:void(0)"><a href="../services/services.html">Services</a></a>
+  <a href="javascript:void(0)"><a class="active" href="../my account/my account.html">My Account</a></a>
+  <a href="javascript:void(0)"><a href="../contact/contact.html">Contact</a></a>
+</div>
+</div>
+	</div>
+
+
+<div id="content">
+  <h2>My Account</h2>
+ </div>   
+ 
+  
+    <div class="row2">
+     <div class="vl" style="height: 700px">
+        
+      </div>
+
+      <div class="col">
+    <form name="loginForm" onsubmit="return validateBookingForm()" action="../services/services.html" method="post">
+    
+    <div class="row3">
+	<h3>Log In</h3>
+	<br>
+	<hr>
+	<br>
+	<center><i class="fa fa-user-circle-o" style="font-size:80px;color:#f44336;align:center"></i></center>
+        <br>
+		<label>Username or email address*</label>
+        <input type="text" name="uname" required>
+        <div class="error" id="bnameErr"></div>
+    </div>
+    <div class="row3">
+        <label>Password*</label>
+        <input type="password" name="password" required>
+        <div class="error" id="bemailErr"></div>
+    </div>
+              
+    <div class="row3">
+         <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="loginbtn">Log In</button>
+    </div>
+	
+<div class="row3">
+        <label>Remember Me</label>
+        <div class="form-inline">            
+            <input type="checkbox" checked="checked" name="remember" >  
+			</div>
+			</div>
+</form>
+		 <br>
+		 <br>
+		   </div>
+
+		 
+		 
+      <div class="col">
+	 <table >
+
+<tr> 
+<td colspan=2>
+
+<form name="registerForm" onsubmit="return validateRegForm()" action="action.html" method="post">
+	  <div class="row3">
+	  <h3>Register</h3>
+	<br>
+	<hr>
+	<br>
+	<center><i class="fa fa-user-circle-o" style="font-size:80px;color:#f44336;align:center"></i></center>
+        <br>
+	<label>Username*</label>
+        <input type="text" placeholder="Enter Username" name="uname" >
+        <div class="error" id="unameErr"></div>
+    </div>
+		<div class="row3">
+        <label>Email*</label>
+        <input type="text" placeholder="Enter Email" name="remail" >
+        <div class="error" id="remailErr"></div>
+    </div>
+    <div class="row3">
+        <label>Password*</label>
+        <input type="password" placeholder="Enter Password" name="psw" >
+        <div class="error" id="pswErr"></div>
+    </div>
+	<div class="row3">
+        <label>Repeat Password*</label>
+        <input type="password" placeholder="Repeat Password" name="repeat" >        
+		<div class="error" id="repeatErr"></div>
+	</div>	
+	<div class="row3">
+        <label>Remember Me</label>
+        <div class="form-inline">            
+            <input type="checkbox" checked="checked" name="remember" >  
+			</div></div>
+        <br>
+    	<div class="row3">
+        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+    </div>
+     
+    <div class="row3">
+           <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+		
+    </div>
+		
+		
+      </div>
+      
+    </div>
+  </form>
+  <br>
+  <br>
+</div>
+
+  
+</div>
+
+<script src="../js/scrolltop.js"></script>
+<!-- Pointing to extrenal onscroll js (sticky menu) -->
+<script src="../js/onscroll.js"></script>
+<!-- Ending code for menu bar-->
+
+
+
+</body>
+</html>
